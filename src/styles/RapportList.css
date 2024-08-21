@@ -1,0 +1,72 @@
+.rapportlist{
+    margin: 20px;
+    font-weight: bolder;
+  
+    margin-bottom: 10px;
+    
+    
+}
+.container_aucun_rapport{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100%;
+}
+.bonhomme_perplexe{
+    max-width : 15%;
+    height : auto;
+}
+.nav_rapportlist{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin-bottom: 20px;
+}
+.btn_nouveau_rapport{
+    background-color:#9e60be;
+    border-radius:10px ;
+    padding: 10px;
+
+}
+.btn_nouveau_rapport:hover{
+    
+    cursor: pointer;
+    background-color: #633c77;
+}
+.nav_total_etat_chambres{
+    margin-bottom: 10px;
+    border-bottom: solid 2px #9e60be;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.list_chambres{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+
+}
+.chambre{
+   /*border-bottom: solid white 1px;*/
+}
+
+.etat-0{
+    color: #f94e3c
+}
+.etat-1{
+    color: #6ab473;
+}
+.etat-2{
+    color: #cfb628;
+}
+.etat-3{
+    color:#a19a7b;
+}
+.etat-4{
+    color: #5280af;
+}
